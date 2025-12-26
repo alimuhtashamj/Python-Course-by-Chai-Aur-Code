@@ -1,0 +1,25 @@
+>>> f.readline()
+'print("coke is good")\n'
+>>> f.readline()
+"username = 'yo'\n"
+>>> f.readline()
+'print(username)'
+>>> f.readline()
+''  
+>>> f.readline()
+''
+>>> f = open('1.py')
+>>> f.__next__()
+'import time\n'
+>>> f.__next__()
+'print("coke is good")\n'
+>>> f.__next__()
+"username = 'yo'\n"
+>>> f.__next__()
+'print(username)'
+>>> f.__next__()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    f.__next__()
+    ~~~~~~~~~~^^
+StopIteration

@@ -1,0 +1,22 @@
+PS C:\Users\Ali Muhtasham Javed\OneDrive\Desktop\python course> python
+Python 3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+>>> username = 'ali'
+>>> username
+'ali'
+>>> username = 'chaiaurcode'
+>>> username 
+'chaiaurcode'
+>>> x = 10
+>>> x
+10  
+>>> y = x
+>>> y  
+10  
+>>> x =15
+>>> x
+15  
+>>> y
+10  
+>>> 

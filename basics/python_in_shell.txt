@@ -1,0 +1,57 @@
+PS C:\Users\Ali Muhtasham Javed\OneDrive\Desktop\python course> python
+Python 3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+>>> print("chai")
+chai
+>>> score = 100
+>>> score 
+100 
+>>> import os
+>>> os.getcwd(
+... 
+... os.getcwd()
+... return
+  File "<stdin>", line 4
+    return
+    ^^^^^^
+SyntaxError: invalid syntax
+>>> os.getcwd()
+'C:\\Users\\Ali Muhtasham Javed\\OneDrive\\Desktop\\python course'
+>>> for c in "chai":
+...     print(c)
+...
+c
+h
+a
+i
+>>> import sys
+>>> sys.platform
+'win32'
+>>> import hello_chai
+chai aur code
+4
+>>> hello_chai.chai("mint tea")
+mint tea
+>>> hello_chai.chai_one
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    import platform
+AttributeError: module 'hello_chai' has no attribute 'chai_one'
+>>> from importlib import reload
+>>> reload(hello_chai)
+chai aur code
+4
+<module 'hello_chai' from 'C:\\Users\\Ali Muhtasham Javed\\OneDrive\\Desktop\\python course\\hello_chai.py'>
+>>> hello_chai.chai_one
+'ginger tea'
+>>>   your_program.py > output.txt
+  File "<stdin>", line 1
+    your_program.py > output.txt
+IndentationError: unexpected indent
+>>> your_program.py > output.txt
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    import platform
+    ^^^^^^^^^^^^
+NameError: name 'your_program' is not defined
